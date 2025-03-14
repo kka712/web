@@ -1,0 +1,65 @@
+h3 {
+    color: green;
+}
+
+p {
+    color: orange;
+}
+
+#first {
+    color: yellow;
+}
+
+#s {
+    color: #38c083;
+}
+
+.a {
+    color: #b779f1;
+}
+
+ol {
+    font-size: 12px;
+}
+
+ol > li.a {
+    font-size: 10px;
+}
+
+ol > li#unique {
+    background-color: red;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: pink;
+}
+
+/* div {
+    display: inline;
+}
+
+a {
+   display: block;
+} */
+
+div.square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.border {
+    border-style: solid;
+    border-width: 3px;
+}
+
+.margin {
+    /* margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px; */
+    margin: 5px 10px 15px 20px;
+}
